@@ -64,4 +64,5 @@ def create_app(database_url: str = "sqlite://") -> FastAPI:
 
     return app
 
-app = create_app("sqlite:///events.db")
+
+app =create_app("sqlite:///events.db")
